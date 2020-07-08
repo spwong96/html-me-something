@@ -1,10 +1,12 @@
 p {
   font-size: 20px;
   margin: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left:7%;
+  padding-right: 7%;
   padding-bottom: 1%;
   padding-top: 1%;
+  font-family: Georgia, serif;
+  color: #000066;
 }
 
 ul {
@@ -12,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #d8d8d8;
+  background-color: whitesmoke;
 }
 
 li {
@@ -22,7 +24,7 @@ li {
 li a {
   font-size: x-large;
   display: block;
-  color: white;
+  color: grey;
   text-align: center;
   padding: 14px 40px;
   text-decoration: none;
@@ -35,19 +37,20 @@ li a:hover {
 h1 {
   font-size: 50px;
   text-align: center;
-  color: #72A0C1;
+  color: #eaedf0;
 }
 
 h2 {
-  margin: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
   font-size: 30px;
-  color: #72A0C1;
+  color: whitesmoke;
 }
 
 h3 {
   font-size: 27px;
   text-align: center;
-  color: grey;
+  color: rgb(225, 249, 255);
 }
 
 img {
@@ -60,10 +63,13 @@ body {
   /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
   background: rgb(227,227,227);
   background: linear-gradient(0deg, rgba(227,227,227,1) 0%, rgba(255,255,255,1) 80%);
+  background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/47/90/un80G4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .travel {
   font-size: 23px;
-  margin-left: 60px;
-  color: #a0a0a0;
+  margin-left: 120px;
+  color: rgba(56, 69, 70, 0.877);
 }
